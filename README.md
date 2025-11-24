@@ -1,77 +1,59 @@
-# MongoDB One-Window Automation Framework
+MongoDB One-Window Automation Framework
 
-Automation framework using **Java**, **Selenium**, and **Cucumber (BDD)** with **MongoDB backend data integration** for One-Window onboarding workflows.
+Automation framework using Java, Selenium, Cucumber (BDD) with MongoDB backend for One-Window onboarding workflows.
 
----
+Overview
 
-## Overview
+This project showcases my expertise in test automation and BDD (Behavior Driven Development).
+It provides scalable, maintainable automated tests for One-Window onboarding workflows, designed for readability, reusability, and modularity.
 
-This project showcases my expertise in **test automation and BDD (Behavior Driven Development)**.  
-It provides **scalable, maintainable automated tests** for One-Window onboarding workflows, designed for **readability, reusability, and modularity**.
+The project demonstrates my automation engineering skills, including:
 
-The project demonstrates my **automation engineering skills**, including:
+Selenium WebDriver for UI automation
 
-- Selenium WebDriver for UI automation
-- Cucumber for BDD-style scenarios
-- Java and Maven for development and dependency management
-- MongoDB backend integration to fetch dynamic test data
+Cucumber & Gherkin for BDD-style scenarios
 
-> ⚠️ **Note:** The code demonstrates my automation and BDD skills; it can be run in a local/test environment with MongoDB backend configuration.
+Java for development
 
----
+MongoDB for backend data integration
 
-## Technology Stack
+⚠️ Note: This project demonstrates automation and BDD skills using MongoDB as a data source; it does not require external enterprise systems to run.
 
-- **Java** – programming language  
-- **Selenium WebDriver** – automated UI testing  
-- **Cucumber** – BDD for human-readable test scenarios  
-- **MongoDB** – backend data integration for dynamic test data  
-- **Maven** – build and dependency management  
+Technology Stack
 
----
+Java – programming language
 
-## Key Achievements
+Selenium WebDriver – automated UI testing
 
-- Developed **end-to-end automated tests** for One-Window onboarding workflows  
-- Integrated **MongoDB backend** for dynamic data-driven testing  
-- Implemented **reusable step definitions and page objects** for maintainability  
-- Structured tests for **easy extension and modularity**  
-- Demonstrated hands-on expertise in **enterprise automation and BDD practices**  
+Cucumber & Gherkin – BDD for human-readable test scenarios
 
----
+MongoDB – backend data integration
 
-## Project Structure & Approach
+Key Achievements
 
-- Test scenarios are written in **Cucumber (BDD)** style, focusing on clear business workflows  
-- Step definitions and page objects follow **modular design principles**  
-- **MongoDB backend** is used to feed dynamic test data instead of Excel or static files  
-- Focus is on demonstrating **automation methodology and dynamic data handling**  
+Developed end-to-end automated tests for One-Window onboarding workflows
 
----
+Integrated MongoDB to dynamically fetch test data
 
-## 🎥 Automation Recording
+Implemented reusable step definitions for maintainability and scalability
 
-A **screen recording of the automated workflow** is included in the repository.  
+Structured tests for easy extension and modularity
 
-It demonstrates:
+Demonstrated hands-on expertise in enterprise automation and BDD practices
 
-- Fully automated One-Window onboarding workflows  
-- Dynamic test data retrieval from MongoDB  
-- Execution of multiple BDD scenarios using Cucumber  
-- Pure automation without manual intervention  
+Project Structure & Approach
 
-**Path in repository:** `/output.avi`  
+Step definitions follow modular design principles
 
-Recruiters and stakeholders can review this recording to see the framework in action.
+MongoDB serves as a dynamic data source instead of static Excel files
 
----
+Focus is on demonstrating automation methodology and BDD practices
 
-## Contact
+Contact
 
-**Shahroze Janjua**  
-Email: shahreyrana9@gmail.com  
-LinkedIn: [https://www.linkedin.com/in/shahroze-janjua-baa58515a](https://www.linkedin.com/in/shahroze-janjua-baa58515a)  
+Shahroze Janjua
+Email: shahreyrana9@gmail.com
 
----
+LinkedIn: https://www.linkedin.com/in/shahroze-janjua-baa58515a
 
-*This project is part of my professional automation portfolio, highlighting my skills in Selenium, Java, Cucumber (BDD), and dynamic enterprise automation.*
+This project is part of my professional automation portfolio.
