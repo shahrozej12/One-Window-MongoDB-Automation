@@ -53,9 +53,13 @@ public class   loginsteps {
     public void i_am_on_the_login_page() throws IOException {
 
 
-            // Initialize Chrome options (you can add options if necessary)
-            ChromeOptions options = new ChromeOptions();
-            options.setBinary("C:\\Users\\Shahroze.Janjua\\Downloads\\chrome-win64_stable\\chrome-win64\\chrome.exe");
+        // Initialize Chrome options (you can add options if necessary)
+        ChromeOptions options = new ChromeOptions();
+        options.setBinary("C:\\Users\\Shahroze.Janjua\\Downloads\\chrome-win64_stable\\chrome-win64\\chrome.exe");
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--window-size=1920,1080");
+        WebDriver driver = new ChromeDriver(options);
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();

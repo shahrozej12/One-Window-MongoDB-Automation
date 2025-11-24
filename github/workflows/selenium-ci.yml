@@ -2,14 +2,13 @@ name: Selenium CI
 
 on:
   push:
-    branches: [ main ]    # triggers on push to main
+    branches: [ main ]
   pull_request:
-    branches: [ main ]    # triggers on PR to main
+    branches: [ main ]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -19,21 +18,19 @@ jobs:
         with:
           java-version: '17'
 
-      - name: Cache Maven packages
+      - name: Cache Maven
         uses: actions/cache@v3
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
 
-      - name: Build with Maven
+      - name: Build project
         run: mvn clean compile
 
-      - name: Run TestNG/Cucumber tests
+      - name: Run Selenium tests
         run: mvn test
 
-      - name: Archive Test Reports
+      - name: Upload test reports
         uses: actions/upload-artifact@v3
         with:
           name: test-report
